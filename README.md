@@ -4,12 +4,14 @@ The fourth iteration of my homelab, Ascendancy.
 ## Overview
 Notable changes:
 - Configuration of a reverse proxy, forcing HTTPS connections and allowing the use of a custom domain.
-- Checkmk, an enterprise tool for advanced monitoring.
-- Eden-MC, a public Minecraft Java server behind a proxy with a plugin providing Bedrock support.
-- Upgrade of main the Proxmox node for increased performance and decreased power draw.
-- New Unifi switch for seamless VLAN management.
+- Implementation of Checkmk, an enterprise tool for advanced monitoring.
+- Deployment of Eden-MC, a proxied Minecraft Java server with Bedrock support.
+- Upgrade of the main Proxmox node, resulting in increased performance and decreased power draw.
+- Integration of a Unifi switch for seamless VLAN management.
 
 ![](./Images/Ascendancy%204%20v6.png)
+
+![](./Images/device.png)
 
 
 ## Hosts
@@ -81,7 +83,7 @@ Not technically a host, but worth a mention. I no longer use the NUT server on t
 
 - **Type:** Physical host, ThinkCentre M720Q
 
-Proxmox is installed on this device, but nothing is running on it yet. I purchased this ThinkCentre to work on larger projects like Active Directory while keeping it segmented from my main Proxmox host. Since it's not in use, it's also sort of a backup for Springhawk, if I needed to move any VMs to it.
+Proxmox is installed on this device, but nothing is running on it yet. I purchased this ThinkCentre to work on larger projects like Active Directory while keeping it segmented from my main Proxmox host. I have a MikroTik hEX S to both test the platform, and to keep projects further segmented. Since it's not in use, it's also sort of a backup for Springhawk, if I needed to move any VMs to it.
 
 ![](./Images/peregrine.png)
 
